@@ -4,5 +4,20 @@ The goal is to compute multidimensional bibliographies, where the dimensions inc
 
 ## Steps to Run
 - Get Scopus API Key and INST Token. Paste it in the config.json file
-- Run data-extraction.py file  
-- Run computing-bibliography.ipynb file
+- Run data_extraction.py file  
+- Run computing-bibliography.ipynb file  
+
+## In order to run your version
+- Add titles to "National Academies Report References.csv" or create your own CSV file with titles that are available on Scopus.
+- Run as per the steps given above.  
+
+## Code Description  
+
+### data_extraction.py
+- This tool uses a set of titles from a bibliography, extracts their EIDs, and pulls the titles, abstracts, and references from Scopus for documents associated with that EID.
+- We use elsapy to search for EIDs using titles which returns a JSON response.  
+- From said response we extract EIDs to input to Elsevier’s AbstractRetrieval API which returns the bibliography.
+
+### computing-bibliography.ipynb
+- Using the data returned by the Data Collection tool we compute relatedness between any pair of reference items.  
+- These relatedness is represented as a Relatedness Matrix where values range from 0 to 1.  
