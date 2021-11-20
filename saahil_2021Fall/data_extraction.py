@@ -7,7 +7,7 @@ from elsapy.elssearch import ElsSearch
 import json
 import csv
 import requests
-
+import time
 
 def extract_data():
     """
