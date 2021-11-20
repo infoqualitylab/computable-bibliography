@@ -20,4 +20,4 @@ The goal is to compute multidimensional bibliographies, where the dimensions inc
 
 ### computing-bibliography.ipynb
 - Using the data returned by the Data Collection tool we compute relatedness between any pair of reference items.  
-- These relatedness is represented as a Relatedness Matrix where values range from 0 to 1.  
+- This relatedness is represented as a Relatedness Matrix where values range from 0 to 1.  
