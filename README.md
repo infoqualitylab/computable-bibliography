@@ -3,13 +3,11 @@
 The goal is to compute multidimensional bibliographies, where the dimensions include: title, journal name, publication year, issue, page number, authors. We will do this by gathering bibliographic data from various databases such as Scopus, Web of Science, Crossref, etc. The outcome ofthe project is to compute “relatedness” between any two bibliographies and form a “relatedness matrix”. This will be used in the future to contribute to tools that will assist in decision-making.  
 
 ## Steps to Run
-- Get Scopus API Key and INST Token. Paste it in the config.json file
-- Run data_extraction.py file  
-- Run computing-bibliography.ipynb file  
-
-## In order to run your version
-- Add titles to "National Academies Report References.csv" or create your own CSV file with titles that are available on Scopus.
-- Run as per the steps given above.  
+    1. Store your file containing titles in the data folder  
+    2. Get Scopus API Key and INST Token. Paste it in the config.json file  
+    3. Run data_extraction.py file, Type in your filename without extension  
+        example. for salt_controversy_title_only.csv type "salt_controversy_title_only" in terminal  
+    4. Run computing-bibliography.ipynb file  
 
 ## Code Description  
 
