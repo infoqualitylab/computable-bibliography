@@ -75,16 +75,18 @@ def extract_data():
 
                 # Adding References to our data
                 if response.json()['abstracts-retrieval-response']['item']['bibrecord']['tail'] is not None:
-                    references_list = response.json()['abstracts-retrieval-response']['item']['bibrecord']['tail']['bibliography']['reference']
+                    try:
+                        references_list = response.json()['abstracts-retrieval-response']['item']['bibrecord']['tail']['bibliography']['reference']
 
-                    for r in references_list:
-                        try:
-                            if 'ref-title' in r['ref-info']:
-                                # print(r['ref-info'])
-                                references_titles.append(r['ref-info']['ref-title']['ref-titletext'])
-                        except TypeError:
-                            continue
-
+                        for r in references_list:
+                            try:
+                                if 'ref-title' in r['ref-info']:
+                                    # print(r['ref-info'])
+                                    references_titles.append(r['ref-info']['ref-title']['ref-titletext'])
+                            except TypeError:
+                                continue
+                    except KeyError:
+                        continue
                 # Adding Authors to our data
                 if 'author-group' in response.json()['abstracts-retrieval-response']['item']['bibrecord']['head']:
                     author_groups = response.json()['abstracts-retrieval-response']['item']['bibrecord']['head']['author-group']
