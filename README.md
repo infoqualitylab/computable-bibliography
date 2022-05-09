@@ -9,3 +9,5 @@ Project manager: [**Yuanxi Fu**](https://ischool.illinois.edu/people/yuanxi-fu):
 
 [**Kartikey Dubey**](https://www.linkedin.com/in/kartikey-dubey/): Master's student in Information Management, UIUC, @kartikey-git
 
+## Funding Source
+This project is funded by Professor Jodi Schneider's [CAREER Award Grant](https://ischool.illinois.edu/news-events/news/2021/09/schneider-receives-nsf-career-award)
