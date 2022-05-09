@@ -1,6 +1,6 @@
 # Computable Bibliography
 ## Project Description  
-This project aims to develop a series of computer scripts to turn the bibliography of a document (e.g., a publication, a grant proposal) into a computable object and generate insight into the quality and diversity of the reference cited. 
+This project aims to develop a series of computer scripts to turn the bibliography of a document (e.g., a publication, a grant proposal) into a computable object and generate insight into the quality and diversity of the reference cited. We use bibliographic data retrieved from large citation database (e.g., Scopus), descriptive statistics, and network analysis to achieve this goal. 
 
 Project manager: [**Yuanxi Fu**](https://ischool.illinois.edu/people/yuanxi-fu): PhD student in Information Science, UIUC, @yuanxiesa
 
