@@ -3,13 +3,13 @@ message: "If you use this software, please cite it as below."
 authors:
 - family-names: "Hiranandani"
   given-names: "Saahil"
-  orcid:
+  orcid: 
 - family-names: "Dubey"
   given-names: "Kartikey"
-  orcid:
+  orcid: 
 - family-names: "Fu"
   given-names: "Yuanxi"
-  orcid:https://orcid.org/0000-0003-2726-0999
+  orcid: https://orcid.org/0000-0003-2726-0999
 title: "Computable Bibliography"
 version: 1.0.0
 doi:
