@@ -1,0 +1,6 @@
+pandas
+requests
+xmltodict
+bibtexparser
+rispy
+thefuzz
