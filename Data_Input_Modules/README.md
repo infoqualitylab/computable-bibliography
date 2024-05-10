@@ -15,8 +15,8 @@ This module retreives metadata records from provided author name and title metad
 ### PubMed to DOI
 This module retreived DOIs from a provided PMID using PubMeds eUtils API. 
 
-### RIS and BibTex Conversion
-These modules convert RIS and BibTex modules to Pandas dataframes.
+### RIS and BibTeX Conversion
+These modules convert RIS and BibTeX modules to Pandas dataframes.
 
 ### Raw Text Parsing
 This module fetches DOIs for a given formatted citation using Crossref's API.
