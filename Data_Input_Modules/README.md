@@ -31,15 +31,12 @@ This module retreived DOIs from a provided PMID using PubMeds eUtils API.
 - Expected input: PubMed PMID
 - Expected output: DOI or "Not Found"
 
-<<<<<<< Updated upstream
 ### RIS and BibTeX Conversion
 These modules convert RIS and BibTeX modules to Pandas dataframes.
-=======
 ### RIS and BibTex Conversion
 These modules convert RIS and BibTex modules to Pandas dataframes.
 - Expected input: .bib or .ris file
 - Expected output: Pandas dataframe
->>>>>>> Stashed changes
 
 ### Raw Text Parsing
 This module fetches DOIs for a given formatted citation using Crossref's API.
@@ -49,8 +46,4 @@ This module fetches DOIs for a given formatted citation using Crossref's API.
 ## Running Testing Code
 Run the testing.py file. The output will be 5 separate csv files output into the 'results' folder. Each of these correspond to outputs of the five different functions included in the module.
 
-<<<<<<< Updated upstream
-If you would like to test the code with your own dataset, feel free to modify testing.py with the appropriate file names. Please be aware of differences in column names such as 'Author' vs 'Authors', and type differences like strings vs lists.
-=======
 If you would like to test the code with your own dataset, feel free to modify testing.py with the appropriate file names. Most notably, the current testing file is designed to work with the "first author" column as featured in the testing dataset. Please make sure your dataset has such a column. If your dataset does not, extract the first author in a list of names, or use the singular provided name in your dataset. Please be aware of differences in column names such as 'Author' vs 'Authors', and type differences like strings vs lists.
->>>>>>> Stashed changes
